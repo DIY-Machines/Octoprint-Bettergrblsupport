@@ -29,7 +29,7 @@ class BetterGrblSupportPlugin(octoprint.plugin.SettingsPlugin,
         self.hideControlTab = True
         self.hideGCodeTab = True
         self.customControls = False
-        self.helloCommand = "$$"
+        self.helloCommand = ""  #used to be $$
         self.statusCommand = "?$G"
         self.dwellCommand = "G4 P0"
         self.positionCommand = "?"
