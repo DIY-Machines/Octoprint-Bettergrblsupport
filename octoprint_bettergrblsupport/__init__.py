@@ -79,7 +79,7 @@ class BetterGrblSupportPlugin(octoprint.plugin.SettingsPlugin,
             hideTempTab = True,
             hideControlTab = True,
             hideGCodeTab = True,
-            hello = "$$",
+            hello = "", #used to be '$$'
             statusCommand = "?$G",
             dwellCommand = "G4 P0",
             positionCommand = "?",
