@@ -1,8 +1,8 @@
-# Better Grbl Support Plugin for Octoprint
+# Better Grbl Support Plugin for Octoprint - Tweaked for DIY Machines' Kinetic Sand Table Project
 
 ![grbl](https://raw.githubusercontent.com/gnea/gnea-Media/master/Grbl%20Logo/Grbl%20Logo%20250px.png)
 
-This plugin was inspired by mic159's Grbl Support plugin (https://plugins.octoprint.org/plugins/octoprint-grbl-plugin/).  His plugin gets you 90% of the way there for adding Grbl support to Octoprint but had a couple limitations and lacked some bells and whistles from a UI and configuration perspective.
+This plugin is based on Synman's (https://github.com/synman/Octoprint-Bettergrblsupport) which in turn was inspired by mic159's Grbl Support plugin (https://plugins.octoprint.org/plugins/octoprint-grbl-plugin/).
 
 **Better Grbl Support** utilizes mic159's gcode receiver parser (with significant modifications) and does much, much more:
 
@@ -33,10 +33,9 @@ This plugin was inspired by mic159's Grbl Support plugin (https://plugins.octopr
 
 ## Setup
 
-Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
-or manually using this URL:
+Install manually using this URL:
 
-    https://github.com/synman/OctoPrint-Bettergrblsupport/archive/master.zip
+    https://github.com/DIY-Machines/Octoprint-Bettergrblsupport/archive/master.zip
 
 ## Configuration
 
